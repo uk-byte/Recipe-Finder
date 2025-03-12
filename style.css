@@ -1,0 +1,62 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(pic1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+}
+
+button {
+    background: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e68900;
+}
+
+#results {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe-card {
+    background: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.recipe-card img {
+    width: 100%;
+    border-radius: 10px;
+}
